@@ -37,6 +37,11 @@ h1 {
     background-position: right;
 }
 
+h2 {
+	font-family: AlteHaasGroteskBold, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .sub-heading {
     text-align: center;
     /* font-family: AlteHaasGroteskBold, Arial, Helvetica, sans-serif; */
@@ -73,7 +78,7 @@ body {
     background: #64605f;
 }
 
-.copy-to-clipboard {
+.input-button {
     display: flex;
     width: 100%;
     max-width: 450px;
@@ -82,7 +87,7 @@ body {
     overflow: hidden;
 }
 
-.copy-to-clipboard input {
+.input-button input:not([type=button]) {
     border: 0;
     border-right: 1px solid #ddd;
     background: #fff;
@@ -92,7 +97,8 @@ body {
     font-size: 1em;
 }
 
-.copy-to-clipboard button {
+.input-button button,
+.input-button input[type=button] {
     height: 45.3px;
     color: 545454;
     margin: 0;
@@ -103,17 +109,14 @@ body {
     cursor: pointer;
 }
 
-#mc_embed_signup {
-    transition: 0.3s;
-    width: 500px;
-}
 
-.contents {
+/* .contents {
     text-align: center;
+} */
+
+.contents h3 {
+    font-size:1.3em;
 }
-
-.contents .button {
-    /* display: block; */
-    /* margin: 10px auto; */
-
+.contents p {
+	font-size: 1.1em;
 }
