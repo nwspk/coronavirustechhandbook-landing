@@ -1,0 +1,25 @@
+html,body {
+	background:#fff2f2;
+	margin:0;
+	padding:0;
+}
+
+body {
+	width:100%;
+}
+
+.cont {
+	width:100%;
+	max-width:700px;
+	margin:auto;
+}
+
+.button {
+	margin:10px 20px;
+	display:inline-block;
+	padding:10px 20px;
+	border-radius:4px;
+	background:#333;
+	color:#fff;
+	text-decoration:none;
+}
